@@ -1,0 +1,389 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Pixelify Sans', cursive;
+}
+
+p, li, a, td, th {
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #A0BFE0;
+  border-radius: 15px;
+  height: auto;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+  height: 10px;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+body {
+    background-color: #A0BFE0;
+}
+
+header h1 {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #4A55A2; 
+    width: 15%;
+    margin-left: 42%;
+    padding: 10px;
+    color: white;
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #4A55A2;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container div{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #A0BFE0;
+    height: 80px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.htmlC a {
+    display: inline-flex;
+    color: #4A55A2;
+}
+
+.htmlC h3{
+    text-align: center;
+}
+
+.cssC a {
+    display: inline-flex;
+    color: #4A55A2;
+}
+
+.cssC h3 {
+    text-align: center;
+}
+
+
+header a {
+    word-spacing: 3px;
+    padding: 5px;
+}
+
+main {
+    transform: translate(20%, 0%);
+    width: 70%;
+    margin: 10px;
+}
+
+article {
+    padding: 50px;
+    margin: 35px;
+    border-radius: 10px;
+    background-color: #4A55A2;
+    border: 2px solid black;
+    box-shadow: 10px 10px 5px black;
+}
+
+article h2{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 37%;
+    margin-right: 37%;
+    height: 25px;
+    padding: 3px;
+    background-color: #A0BFE0;
+}
+
+.exceph {
+    text-align: left ;
+    border: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: auto;
+    padding: 0px;
+    background-color: #A0BFE0;
+}
+
+article p {
+    text-align: justify;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #7895CB;
+    margin: 2.5%;
+    padding: 40px;
+    box-shadow: 5px 5px 5px black;
+}
+
+article table {
+    width: 50%;
+    height: 100%;
+    border-spacing: 5px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table, tr, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td, th {
+    text-align: center;
+    padding: 10px;
+}
+
+.BS div {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 15%;
+    margin-left: 3%;
+    background-color: #A0BFE0;
+}
+
+
+.HTS div {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 20%;
+    margin-left: 3%;
+    background-color: #A0BFE0;
+}
+
+.PandT div{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 15%;
+    margin-left: 3%;
+    padding: 10px;
+    background-color: #A0BFE0;
+}
+
+.LisC div{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 15%;
+    margin-left: 3%;
+    padding: 10px;
+    background-color: #A0BFE0;
+}
+
+.LinkC div{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 15%;
+    margin-left: 3%;
+    padding: 10px;
+    background-color: #A0BFE0;
+}
+
+.ImgC div {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 22%;
+    margin-left: 3%;
+    padding: 10px;
+    background-color: #A0BFE0;
+}
+
+.form div {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 70%;
+    padding: 15px;
+    background-color: #A0BFE0;
+    margin-left: 14%;
+}
+
+.form table {
+    width: 100%;
+    background-color: #7895CB;
+}
+
+.TabC div {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 70%;
+    padding: 15px;
+    background-color: #A0BFE0;
+    margin-left: 14%;
+}
+
+.TabC table {
+    width: 100%;
+    background-color: #7895CB;
+}
+
+.SemC div {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 70%;
+    padding: 15px;
+    background-color: #A0BFE0;
+    margin-left: 14%;
+}
+
+.SemC table {
+    width: 100%;
+    background-color: #7895CB;
+}
+
+.CsselecC div{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 15%;
+    margin-left: 3%;
+    padding: 10px;
+    background-color: #A0BFE0;
+}
+
+.excepDiv{
+    width: 40% !important;
+}
+
+.SPC div {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 15%;
+    margin-left: 3%;
+    padding: 10px;
+    background-color: #A0BFE0;
+}
+
+.BMC div {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 15%;
+    margin-left: 3%;
+    padding: 10px;
+    background-color: #A0BFE0;
+}
+
+.TSC div {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 15%;
+    margin-left: 3%;
+    padding: 10px;
+    background-color: #A0BFE0;
+}
+
+.CTC div {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 25%;
+    margin-left: 3%;
+    padding: 10px;
+    background-color: #A0BFE0;
+}
+
+.BTC div {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 25%;
+    margin-left: 3%;
+    padding: 10px;
+    background-color: #A0BFE0;
+}
+
+.PTC div {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 70%;
+    padding: 15px;
+    background-color: #A0BFE0;
+    margin-left: 14%;
+}
+
+.PTC table {
+    width: 100%;
+    background-color: #7895CB;
+}
+
+.MQC div {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 25%;
+    margin-left: 3%;
+    padding: 10px;
+    background-color: #A0BFE0;
+}
+
+.MQC h4 {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 3%;
+    width: 10%;
+    padding: 10px;
+    background-color: #A0BFE0;
+}
+
+footer{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    height: 300px;
+    background-color: #4A55A2;
+}
+
+footer p {
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 5%;
+    background-color: #A0BFE0;
+    box-shadow: 10px 10px 5px black;
+    margin-left: 10%;
+}
+
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50%;
+    height: 35%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: -6.5%;
+    background-color: #A0BFE0;
+    box-shadow: 10px 10px 5px black;
+    width: 35%;
+    overflow: hidden;
+}
+
+footer img {
+    padding: 10px;
+    margin: 10px;
+}
+

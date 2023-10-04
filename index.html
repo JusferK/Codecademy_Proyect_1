@@ -1,0 +1,663 @@
+<<<<<<< HEAD
+<html>
+  <body>
+    <h1>Justin!</h1>
+    <p>Welcome to my website!</p>
+    <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+  </body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cheat sheet!</title>
+        <link rel="stylesheet" href="/CodeAcademy/Proyect1/css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Pixelify+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+                <div>
+                    <h1>This is a cheat sheet!</h1>
+                </div>
+                <div class="container">
+                        <div class="htmlC">
+                            <h3>Everything about HTML!</h3>
+                            <a href="#BSid"><li>Basic structure</li></a>
+                            <a href="#HTSid"><li>Header tags</li></a>
+                            <a href="#PandTid"><li>Paragraphs & texts</li></a>
+                            <a href="#Lid"><li>Lists</li></a>
+                            <a href="#Linksid"><li>Links</li></a>
+                            <a href="#Imgid"><li>Images</li></a>
+                            <a href="#Fid"><li>Formularies</li></a>
+                            <a href="tabID"><li>Tables</li></a>
+                            <a href="#SMid"><li>Semantic HTML</li></a>
+                            <a href="#comid"><li>Commentaries</li></a>
+                        </div>
+                        <div class="cssC">
+                            <h3>Everything about CSS!</h3>
+                            <a href="#CSSelecid"><li>Selectors</li></a>
+                            <a href="#SPid"><li>Style properties</li></a>
+                            <a href="#BXid"><li>Box models</li></a>
+                            <a href="#tsid"><li>Text styles</li></a>
+                            <a href="#Cid"><li>Colors</li></a>
+                            <a href="#BGid"><li>Background</li></a>
+                            <a href="#posID"><li>Positioning</li></a>
+                            <a href="#fbID"><li>Flexbox</li></a>
+                            <a href="#GDid"><li>Grids</li></a>
+                            <a href="#MQid"><li>Media Query</li></a>
+                        </div>
+                </div>
+        </header>
+        <main>
+                <h2 style="text-align: center;">HTML</h2>
+            <article class="BS" id="BSid">
+                <h2>Basic structure</h2>
+                <p>
+                    HTML or Hypertext Markup Language is a standard markup langauge for the web that defines the structure of web page... is the definition you can find out there in internet. 
+                    But if I can explaing that using my words, is basically the skeleton for a web page, like literally a skeleton. In order for us to create a web document... because that what
+                    it actually is, you need to use the following tags: <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, <code>&lt;body&gt;</code>. Those are the main tags and without them,
+                    the html structure would actually have some issues trying to build the page. Every tags start with the conditional mark less than <code>&lt;</code> and closes with the conditional
+                    greater than <code>&gt;</code> so in order to start a tag it would be something like <code>&lt;tag&gt;</code> and then close the tag just like the opening pattern but using a
+                    division mark withing the conditional marks... just like this: <code>&lt;/&gt;</code> so the full tag would look like this: <code>&lt;tag&gt;&lt;/tag&gt;</code>. Is important to mention that
+                    there is a few exception in some tags that doesn't need a closing tag like <code>&lt;br&gt;</code>. For instance, we could see the structure something like this:
+                </p>
+                <div>
+                    <code>
+                        &lt;html&gt;
+                        <br>
+                        &nbsp; &lt;head&gt;
+                        <br>
+                        <br>
+                        &nbsp; &lt;/head&gt;
+                        <br>
+                        &nbsp; &lt;body&gt;
+                        <br>
+                        <br>
+                        &nbsp; &lt;/body&gt;
+                        <br>
+                        &lt;/html&gt;
+                    </code>
+                </div>
+                <p>
+                    And this is how the main structure of a html would like.
+                </p>
+            </article>
+            <article class="HTS" id="HTSid">
+                <h2 class="NTT">Header tags</h2>
+                <p>
+                    Header tags are basically titles within the document which basically expresses where a topic/idea starts and after that will either include a subtitle or a paragraph.
+                    There is 6 heading tags, which the h1 is the main one, so all the way down to h6 is the smallest heading tag we can find, so this is how tag would look like 
+                    <code>&lt;h1&gt;title&lt;/h1&gt;</code>, here some examples: 
+                </p>
+                <div>
+                    <h1>Hello, I'm a example!</h1>
+                    <h2 class="exceph">Hello, I'm a example!</h2>
+                    <h3>Hello, I'm a example!</h3>
+                    <h4>Hello, I'm a example!</h4>
+                    <h5>Hello, I'm a example!</h5>
+                    <h6>Hello, I'm a example!</h6>
+                </div>
+                <p>
+                    This a clearly example of the hierachy of this tags and the usage you want to give them will depend on the context of the text
+                </p>
+            </article>
+            <article class="PandT" id="PandTid">
+                <h2>Paragraphs & texts</h2>
+                <p>
+                    We referred to paragraphs and text everything that will be inside the article, which is basically the content, like a newspaper, the paragraph or text is the
+                    information that we want to consume, like for instance, this one. The most known  ones are <code>&lt;p&gt;</code> or <code>&lt;br&gt;</code> but there is a 
+                    few more like <code>&lt;strong&gt;</code>, <code>&lt;em&gt;</code> and many more. It's important that we can search the appropiate usage of the tags depending 
+                    on the context and the way we want to send the message. example:
+                </p>
+                <div>
+                    <code>&lt;p&gt;This is a text!&lt;/p&gt;</code>
+                </div>
+                <p>
+                    that's how it would like, with whatever text you want in between the tags.
+                </p>
+            </article>
+            <article class="LisC" id="Lid">
+                <h2>Lists</h2>
+                <p>
+                    In html, there is a few tags in order to display information in a organized way, we can think of it like a list. The tags that we usually use for that is
+                    <code>&lt;ol&gt;</code> and <code>&lt;ul&gt;</code>. The tag <code>&lt;ul&gt;</code> (unorder list) represents a list that doesn't have an ascendent or 
+                    descendent hierachy, on this list it doesn't care. You can list them as you want even if there is an order, with this tag, we cannot express that, that's 
+                    why the tag <code>&lt;ol&gt;</code> (order list) is used for. To list items/things that have a order or hierachy and it's important to recognize/express them.
+                    The other important tag to complete and be able to used the lists tags is <code>&lt;li&gt;</code> (listed item). Which you can use in order to be able to put items inside 
+                    the order or unorder list. This is how we would use it:
+                </p>
+                <div>
+                    <code>
+                        &lt;ol&gt;
+                        <br>
+                        &nbsp;&lt;li&gt;item&lt;/li&gt;
+                        <br>
+                        &nbsp;&lt;li&gt;item&lt;/li&gt;
+                        <br>
+                        &nbsp;&lt;li&gt;item&lt;/li&gt;
+                        <br>
+                        &lt;/ol&gt;
+                    </code>
+                </div>
+                <p>
+                    It would look something like:
+                </p>
+                <div>
+                    <ol>
+                        <li>item</li>
+                        <li>item</li>
+                        <li>item</li>
+                    </ol>
+                </div>
+            </article>
+            <article class="LinkC" id="Linksid">
+                <h2>Links</h2>
+                <p>
+                    When we want to reference something and there is a online page available, what we usually share is the link... right? Well, on html it's a little different since
+                    we can use the tag <code>&lt;a&gt;&lt;/a&gt;</code> which will highlighted the word and let us know that is a link. Withing the opening tag <code>&lt;a&gt;</code>,
+                    we can use an attribute in order to we able to placed the link in which we want to refer the user to. For example:
+                </p>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=Gnm3hIcjiCQ" target="_blank">Hello I'm a link!</a>
+                    </div>
+                <p>
+                    On this example, the highlighted word is a link, and as long as you click on the highlighted phrase, it will take you to the referred link
+                </p>
+            </article>
+            <article class="ImgC" id="Imgid">
+                <h2>Images</h2>
+                <p>
+                    As part of a newspaper, there is usually a picture in order to provide more detailed information about the information that wants to be send.
+                    So HTML wants to be able to that as well, so there is a specific tag that allow us to do that, we are talking about the <code>&lt;img&gt;&lt;/img&gt;</code>
+                    tag, which we can either have the file downloaded and reference the path were the picture/file is located or we can reference the picture 
+                    using an url by using the attribute "src". Here's an example:
+                </p>
+                <div>
+                    <code>&lt;img src="file/path"&gt;Picture&lt;/img&gt;</code>
+                </div>
+                <p>
+                    In this example, if the src attribution is shown like that, it means that the file was downloaded. In beetwen the tags, we see the word "Picture", why is that?
+                    it can happen that the file is corrupt or the url is not longer available, when that happens, the picture will not render and the word we have in beetwen the tags
+                    will take it's place in case the picture doesn't work.
+                </p>
+            </article>
+            <article class="form" id="Fid">
+                <h2>Formularies</h2>
+                <p>
+                    Using formularies on a html document, will allows us to receive data from our users in be able to stored them most of the times on a database.
+                    Instead of me having to describe every attribute one by one, I'm going to show you the multiple tags used within the form tag.
+                    It's always good to remember that if we would like to know more about these tags, we can get more information about these topics on pages like 
+                    <a href="https://www.w3schools.com/tags/tag_form.asp" target="_blank" style="color: #4A55A2;">this</a> or
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form" target="_blank" style="color: #4A55A2;">this</a>
+                </p>
+                <div>
+                    <table>
+                        <tr>
+                            <th>Tags</th>
+                            <th>attribute</th>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;form&gt;</code></td>
+                            <td>action, method, target, autocomplete, novalidate, rel, name, enctype, accept-charset</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;label&gt;</code></td>
+                            <td>for, class, title, tabindex, style, lang, id, dir, accesskey</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;input&gt;</code></td>
+                            <td>type, id, name, value, disabled, size, maxlength, minlength, multiple, pattern, placeholder, required, step, autofocus, height, list</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;textarea&gt;</code></td>
+                            <td>id, name, rows, cols, autofocus, dirname, disabled, form, maxlength, placeholder, readonly, required, rows, wrap</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;p&gt;</code></td>
+                            <td>style, id, class</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;submit&gt;</code></td>
+                            <td>type, name, value, formaction, formethod, formentype, formtarget, disabled, autofocus, onclick</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+            <article class="TabC" id="tabID">
+                <h2>Tables</h2>
+                <p>
+                    Tables on HTML are used to display data in rows and columns, the tag that is used to create it is <code>&lt;table&gt;&lt;/table&gt;</code>,
+                    which is the main container that will have the columns and rows. this is going to be the table for the elements that are needed in order to
+                    create a table:
+                </p>
+                <div>
+                    <table>
+                        <tr>
+                            <th>Tags</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;table&gt;</code></td>
+                            <td>Main container, in which the rows and columns will in.</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;th&gt;</code></td>
+                            <td>Defines a header cell in a table</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;tr&gt;</code></td>
+                            <td>Defines a row in a table</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;td&gt;</code></td>
+                            <td>Defines a cell in a table</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;caption&gt;</code></td>
+                            <td>Defines a table caption</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;colgroup&gt;</code></td>
+                            <td>Specifies column properties for each column within a &lt;colgroup&gt; element</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;thead&gt;</code></td>
+                            <td>Groups the header content in a table</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;tbody&gt;</code></td>
+                            <td>Groups the body content in a table</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;tfoot&gt;</code></td>
+                            <td>Groups the footer content in a table</td>
+                        </tr>
+                    </table>
+                </div>
+                <p>
+                    So I just created a table and what tags are used in order to used a tag table on html.
+                </p>
+            </article>
+            <article class="SemC" id="SMid">
+                <h2>Semantic HTML</h2>
+                <p>
+                    As you have seen, HTML is about structure and how will this information be display. Well for a programmer sometimes can be hard to read since there can be so many 
+                    tags nested inside other tags. In order to make things a little easier for programmer to read the code, it's preferrible to build the code with tags that provides
+                    valueable information about what the context of that information can be, by just using the correct tag. I'm sorry, but there is a lot of tags you will be working 
+                    when coding html, so here's other table you can take a look in order to get information about what tags are semantic will be helpful for a programmer for readibility
+                </p>
+                <div>
+                    <table>
+                        <tr>
+                            <th>Tags</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;header&gt;</code></td>
+                            <td>It basically makes reference of the top section of a webpage, where you can find the site's logo, and many more import information</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;nav&gt;</code></td>
+                            <td>This tag makes references to the section where the menu is, making this easier to the user on how to navegate through the app</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;main&gt;</code></td>
+                            <td>Represents the main content of the web page, just like this one. All the information provied could be within the main tag</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;section&gt;</code></td>
+                            <td>The references to a thematic grouping contect within the webpage</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;article&gt;</code></td>
+                            <td>This is where basically all the informations is placed.</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;aside&gt;</code></td>
+                            <td>This sections is used to place information that is related to the main content</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;footer&gt;</code></td>
+                            <td>Represents the bottom section, where the social media and contact information is of the page.</td>
+                        </tr>
+                        <tr>  
+                            <td><code>&lt;figure&gt;</code></td>
+                            <td>This tag is used as a multimedia section where the programmer can use it in order to place videos, photos & more</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;time&gt;</code></td>
+                            <td>This references to a specific date/time</td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;mark&gt;</code></td>
+                            <td>Highlights text that has been mark for reference or emphasis</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+            <article class="comC" id="comid">
+                <h2>Commentaries</h2>
+                <p>
+                    The commentaries could be use for multiple reason, from you leaving a commentaries about what is that function or section for to you making a favor to the next developer
+                    in order to be able to identify what's going on with the code making the code easier to understand. On the programming world, depeding on the language you are coding, the
+                    comentaries will be different, in html the commentaries would look like this: <code>&lt;!--comment--&gt;</code>, what ever you put in beetwen that special way of tags, the
+                    browser will skip it not show it when rendering the document.
+                </p>
+            </article>
+                <h2 style="text-align: center;">CSS</h2>
+            <article  class="CsselecC" id="CSSelecid">
+                <h2>Css Selectors</h2>
+                <p>
+                    Css is a language that allow us to styled our html, that's why at the beginning I told you to thin about the html as the skeleton, because css will represent our
+                    skin color, eye color, or everything that will give form to our body. In order for to be able to give to our html style, we need to select what html we want to 
+                    modify, so there's a few ways to call the element we want to modify from the css, that's why we use the attribution <strong>class</strong> or <strong>id</strong>
+                    on html, in order to specified what element we want to change. An example of this could be:
+                </p>
+                <div class="excepDiv">
+                    <code>&lt;button id="mybuttonid" class="mybuttonclass"&gt;Press me!&lt;/button&gt;</code>
+                </div>
+                <p>
+                    As you can see the button tag has an id and a class attribute, so when we go to the css to styled the button tag, we are able to select the element form css, here's an example on how it would 
+                    on the css:
+                </p>
+                <div>
+                    <code>
+                        .mybuttonclass { <br>
+                            &nbsp; *instructions*
+                            <br>
+                         }
+                    </code>
+                </div>
+                <p>
+                     note that before using the exact same name that I named back on the html class, it used a period. The reason why is to tell to css that the attribute that is being used is class, not ID.
+                     so css will recognize that. We could also use Id with no problem and css would still recognize the html element. This is how it would look using a ID instead:
+                </p>
+                <div>
+                    <code>
+                        #mybuttonid { <br>
+                            &nbsp; *instructions*
+                            <br>
+                         }
+                    </code>
+                </div>
+                    <p>
+                    In this case, we use a numeral in order to call the element from the html, but both will do the same job. What's the difference then? that's a good question.
+                    It will depend sometimes because maybe you want to select multiple element at the same time... so you would use class instead of using ID, since an ID can only be named to one element only.
+                     In other words, the ID is going to be way specific than class.
+                    Other important usage is that ID, it's important since it's the way we can play with element from html using JavaScript, our best friend.
+                    Remember you can always look up for these details in pages like <a href="https://www.w3schools.com/html/html_classes.asp" target="_blank">this</a>
+                    or <a href="https://www.w3schools.com/html/html_id.asp" target="_blank">this</a>.
+                    <br>
+                    <br>
+                    Something else we can do on css in order to call an element from html, is using the tag name directly in order to specified what element you want to modify on your css, for example:
+                    </p>
+                    <div>
+                        <code>
+                            h2 { <br>
+                                &nbsp; *instructions*
+                                <br>
+                             }
+                        </code>
+                    </div>
+                    <p>
+                    On this example, the h1 selector will modify every single h1 tag on the document, unless you specified which one you would like to change and you can do it like this:
+                    </p>
+                    <div>
+                        <code>
+                            article h2 { <br>
+                                &nbsp; *instructions*
+                                <br>
+                             }
+                        </code>
+                    </div>
+                    <p>
+                        On this example, you are basically choosing any h2 tag that is nested the article tag, everything outside of it, will not be modified.
+                    </p>
+            </article>
+            <article class="SPC" id="SPid">
+                <h2>Style properties</h2>
+                <p>
+                    The style properties are a set of properties that will allowed you to style the the html document allowing you to give a unique style to the html.
+                    We can't named all of them, because we are talking about a lot of them, but sure I can mention the one that most used on html.
+                </p>
+                <div>
+                    <ul>
+                        <li>color</li>
+                        <li>font-size</li>
+                        <li>background-color</li>
+                        <li>border</li>
+                        <li>margin</li>
+                        <li>padding</li>
+                        <li>text-align</li>
+                    </ul>
+                </div>
+                <p>
+                    Just to name a few... since it would probably take a few hours to name all of them. And don't forget, they also have property values, which basically means that 
+                    every style property, accepts different specific values, which would be like (red) or (150px)... depending on what you are working and what style property you are
+                    using, will be the value that you usually use. There is also something call Cascading and Cascading and Specificity, which basically means that styles can be inherited 
+                    from parent elements and overriden by more specific styles. Which was mention previously when talking about selects, but just to let you know if other dev tells you
+                    about it, you can understand what are they referring to.
+                </p>
+            </article>
+            <article class="BMC" id="BXid">
+                <h2>Box models</h2>
+                <p>
+                    To begin with, the most important aspect about this, are the content inside of them, that's why it is important to style the boxes that will contain the
+                    information, so that way the users can easily read the content also making the content look good. one of the propierties we can use is <strong>padding</strong>
+                    which will define the space beetwen content and element's border, there's algo top, bottom, left and right padding if you want to specified the spacing 
+                    in a specific direction. I will name a few of them, but remember that one of the skills that devs have is google stuff. You can always find information
+                    about this topics on <a href="https://stackoverflow.com/" target="_blank">here</a> or <a href="https://www.w3schools.com/" target="_blank">here</a>
+                </p>
+                <div>
+                    <ul>
+                        <li>border</li>
+                        <li>margin</li>
+                        <li>padding</li>
+                    </ul>
+                </div>
+            </article>
+            <article class="TSC" id="tsid">
+                <h2>Text styles</h2>
+                <p>
+                    On css, we can use properties and some techniques in order to be able to manipulate the apperance and the formatting of the text on a web pages. From being 
+                    able to give a color to the content to be able to provide a font style of the web page, let me please name some properties for the possible styles that the 
+                    fonts can have:
+                </p>
+                <div>
+                    <ul>
+                        <li>font-family</li>
+                        <li>font-size</li>
+                        <li>font-weight</li>
+                        <li>font-style</li>
+                        <li>color</li>
+                        <li>text-align</li>
+                        <li>text-decoration</li>
+                    </ul>
+                </div>
+                <p>
+                    and the list goes on and on, but we can basically say that those are the most used one when giving style to the page.
+                </p>
+            </article>
+            <article class="CTC" id="Cid">
+                <h2>Color</h2>
+                <p>
+                    One of the most important things about styling, is the color... if you are able to provide a cool color palette to your webpage, your page will definitely be known
+                    for a good looking web page. So yes, there is a lot of method you can give color to whatever element you think will look with a specific color. The most important 
+                    propierties you can use on your webpage are the ones I will name in a moment. Something important to mention here... here's where your creativity can fly since there's
+                    no rules for color but it's important to be able to identify which colors are better together. Here's the list:
+                </p>
+                <div>
+                    <ul>
+                        <li>Color (color names), example: red</li>
+                        <li>hexadecimal color codes</li>
+                        <li>RGB</li>
+                        <li>RGBA</li>
+                        <li>HSL</li>
+                        <li>HSLA</li>
+                    </ul>
+                </div>
+                <p>
+                    Let me give a web page you can take a look in order to view color palettes for <a href="https://colorhunt.co/" target="_blank">reference</a> (which will be provided on hexadecimal value).
+                </p>
+            </article>
+            <article class="BTC" id="BGid">
+                <h2>Background</h2>
+                <p>
+                    Just like colors, the background color is a really important element to choose carefully, like I said, colors will definitely be a fact if your webpage is 
+                    succesfull or not, since what the users usually expects is a page visually atractive. So combining element's color and background is a important decision to 
+                    make. here's some important properties to can use when styling you background:
+                </p>
+                <div>
+                    <ul>
+                        <li>Background color</li>
+                        <li>Background image</li>
+                        <li>Background repeat</li>
+                        <li>Background size</li>
+                        <li>Background position</li>
+                    </ul>
+                </div>
+                <p>
+                    and the list goes on and on... but remember... an important skill that you must have, is the searching skill so when you would like to know what property is the one to use,
+                    your research has to be effective.
+                </p>
+            </article>
+            <article class="PTC" id="posID">
+                <h2>Positioning</h2>
+                <p>
+                    The positioning of the elements of a web page is as important as the color palette. Why is this, not only because the readibility is easier but the way it looks, will 
+                    definitely have an impact on the users experience, so that's why I consider the positioning of the element is extremely important. It's important that you practice 
+                    aplying all the properties and using all the values until you feel that you have found the best place on the webpage for that element to look good. Here's a table of
+                    properties you can use to manipulate the position of a HTML element:
+                </p>
+                <div>
+                    <table>
+                        <tr>
+                            <th>propierty</th>
+                            <th>Values</th>
+                        </tr>
+                        <tr>
+                            <td>position</td>
+                            <td>static, relative, absolute, fixed, sticky</td>
+                        </tr>
+                        <tr>
+                            <td>offset</td>
+                            <td>top, bottom, left, right</td>
+                        </tr>
+                        <tr>
+                            <td>z-index</td>
+                            <td>positive or negative integer, zero</td>
+                        </tr>
+                        <tr>
+                            <td>floats</td>
+                            <td>left, right, none, inherit</td>
+                        </tr>
+                        <tr>
+                            <td>Flex and grid</td>
+                            <td>display, justify-content, align-items, flex-direction, flex-wrap, grid-gap, grid column</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+            <article id="fbID">
+                <h2>Flexbox</h2>
+                <p>
+                    We previously mention it, but I'm going to provide extra information about what flexbox is and why it's really important to know how to manipulate elements
+                    using the different techniques with the propierties flex. One of the main reason on why is important is that creates webpages that are responsive (responsive
+                    means that the webpage will auto-adjust its size according to user's device screen), that's why the flex (and grid) properties are important. I made a table 
+                    above this section but for further information about properties & values, let me give you the following 
+                    <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox">link</a>
+                </p>
+            </article>
+            <article id="GDid">
+                <h2>Grid</h2>
+                <p>
+                    Just like we mention back on positioning, the importance of grid, it's that allow us to create responsive webpages. but you might be wondering 
+                    on why then what's the difference on using grid or flex? well, the way they are placed within the web page. Let me give a really good reference
+                    that will provide you full details about 
+                    <a href="https://developer.mozilla.org/es/docs/Web/CSS/CSS_grid_layout">grid</a>
+                </p>
+            </article>
+            <article class="MQC" id="MQid">
+                    <h2>Media queries</h2>
+                    <p>
+                        What does it means media queries? what is that? how do eat that? Media queries are a fundamental component of responsive web design in CSS.
+                        They allow you to apply different styles to your web page based on various characteristics of the user's device, such as screen size, resolution,
+                        orientation, and more. Media queries enable you to create layouts and designs that adapt and look good on a wide range of devices, from desktop 
+                        computers to smartphones and tablets.
+                    </p>
+                    <h4>Syntax</h4>
+                    <p>
+                        Media queries are typically written using the <code>@media</code> rule followed by one or more conditions enclosed in parentheses.
+                        The conditions specify when the styles within the media query should be applied.
+                    </p>
+                    <h4>Conditions</h4>
+                    <p>
+                        Media queries are based on various conditions. The most common condition is the screen width, but you can also use conditions for things like screen height,
+                        aspect ratio, orientation, and more.
+                    </p>
+                    <h4 style="width: 13%;">Using media queries</h4>
+                    <p>
+                        You can place media queries in your CSS code to target specific screen sizes or other conditions. When a condition is met, the styles
+                        inside the media query block will be applied, and when the condition is not met, those styles won't affect the rendering of the page.
+                    </p>
+                    <h4 style="width: 14%;">Combining Conditions</h4>
+                    <p>
+                        You can combine multiple conditions in a media query using logical operators (and, not, only, etc.) to create complex rules.
+                    </p>    
+                    <h4>Viewport Units</h4>
+                    <p>
+                        Media queries are often used in conjunction with viewport-relative units like vw (viewport width) and vh (viewport height) to create 
+                        flexible and responsive designs. Let me show how it would look like in code:
+                    </p>
+                    <div>
+                        <code>
+                            .nav {
+                                <br>
+                                &nbsp;background-color: #333;
+                                <br>
+                                &nbsp;color: #fff;
+                                <br>
+                                } 
+                                <br>
+                                <br>
+                            @media (max-width: 768px){<br>
+                                &nbsp;.nav {<br>
+                                    &nbsp;&nbsp;background-color:#777;
+                                    <br>
+                                    &nbsp;}
+                                <br>
+                            }
+                            <br>
+                            <br>
+                            @media (max-width: 480px){<br>
+                                &nbsp;.nav {<br>
+                                    &nbsp;&nbsp;background-color:#777;
+                                    <br>
+                                    &nbsp;}
+                                <br>
+                            }
+                        </code>
+                    </div>
+            </article>
+        </main>
+        <footer>
+            <p>
+                This webpage was made as part of a proyect from <a href="https://www.codecademy.com/profiles/text5464843163">CodeAcademy</a>, here's my profile
+                for more information, you can also check my social medias.
+            </p>
+            <div>
+                <a href="https://github.com/JusferK" target="_blank"><img src="/CodeAcademy/Proyect1/sources/github_PNG80.jpg" alt="github" height="75px"></a>
+                <a href="https://www.instagram.com/fernando_arriaga19/" target="_blank"><img src="/CodeAcademy/Proyect1/sources/NewIGLogo.jpg" alt="IG" height="75px"></a>
+                <a href="https://www.codecademy.com/profiles/text5464843163" target="_blank"><img src="/CodeAcademy/Proyect1/sources/codecademyLog.jpg" alt="Codecademy" height="100px"></a>
+            </div>
+        </footer>
+    </body>
+</html>
+>>>>>>> f53d430 (First commit)
